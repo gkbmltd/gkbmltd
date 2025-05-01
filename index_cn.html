@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="cz">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GK32456XG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4GK32456XG');
+</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="GKBM Ltd.">
     <meta property="og:description" content="Shipping services">
@@ -15,6 +24,10 @@
 
 </head>
 <body>
+    <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <span>此网站使用 cookies 提供更好的体验！</span>
+        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">我接受</button>
+      </div>
     <div class="header">
         <div class="lang-bar">
             <a href="index.html"><img class="flag" alt="flag" src="flaguk.webp"></a>
@@ -81,5 +94,15 @@
             <p class="footer-text">2025 | GKBM Ltd.</p>
         </div>
     </div>
+    <script>
+        function acceptCookies() {
+          document.getElementById('cookie-banner').style.display = 'none';
+          localStorage.setItem('cookiesAccepted', 'true');
+        }
+      
+        if (localStorage.getItem('cookiesAccepted')) {
+          document.getElementById('cookie-banner').style.display = 'none';
+        }
+      </script>
 </body>
 </html>
