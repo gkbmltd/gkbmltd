@@ -15,7 +15,7 @@
   }
   
   body {
-    background-color: rgb(0, 8, 78);
+    background: linear-gradient(90deg,rgba(6, 54, 199, 1) 0%, rgba(11, 120, 133, 1) 50%, rgba(94, 189, 178, 1) 100%);
     font-family: Arial, sans-serif;
   }
   
