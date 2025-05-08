@@ -3,19 +3,10 @@
     "development"
   ],
   "hints": {
-    "axe/name-role-value": [
+    "axe/language": [
       "default",
       {
-        "link-name": "off"
-      }
-    ],
-    "compat-api/html": [
-      "default",
-      {
-        "ignore": [
-          "iframe[loading]",
-          "iframe[referrerpolicy=no-referrer-when-downgrade]"
-        ]
+        "html-lang-valid": "off"
       }
     ],
     "axe/text-alternatives": [
@@ -25,5 +16,13 @@
       }
     ],
     "no-inline-styles": "off"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 132",
+    "not firefox <= 133",
+    "not ios_saf <= 18.2",
+    "not safari <= 18.2"
+  ]
 }

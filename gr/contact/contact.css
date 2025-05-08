@@ -1,0 +1,88 @@
+body{
+    background: #07038F;
+    background: radial-gradient(circle, rgba(7, 3, 143, 1) 0%, rgba(1, 7, 94, 1) 50%, rgba(0, 13, 58, 1) 100%);
+}
+
+.lang-bar{
+    display:flex;
+    justify-content: right;
+    gap:25px;
+
+}
+
+.logo-header{
+    width:313px;
+    height: 151px;
+}
+
+.menu-header{
+    background-color: #373636;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-decoration: none;
+    display: flex;
+    gap:97px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:large;
+    font-family: Arial;
+}
+
+.split{
+    display: flex;
+    background-color: #1b1b1b70;
+    justify-content: center;
+    gap:10%;
+    align-items: center;
+}
+ iframe{
+    margin:1%;
+    border-radius: 4px;
+ }
+.contact-us{
+    text-align: center;
+    font-family: Arial;
+    color:white;
+
+}
+
+form {
+    background: rgba(8, 100, 240, 0.747);
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #218838;
+  }
+
+@media(max-width:768px) {
+
+    .split{
+        flex-direction: column;
+        gap:10%;
+    }
+    iframe{
+        width:fit-content;
+    }
+}
