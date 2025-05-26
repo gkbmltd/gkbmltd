@@ -15,7 +15,7 @@
   }
   
   body {
-    background-color: rgb(10, 39, 168);
+    background-color: white;
     font-family: Arial, sans-serif;
   }
   
@@ -51,12 +51,12 @@
   }
   
   .text-logo-header {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.8rem;
   }
   
   .text-logo-header2 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     font-style: italic;
   }
