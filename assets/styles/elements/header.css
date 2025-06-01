@@ -1,0 +1,68 @@
+@font-face {
+    font-family: cera-gr-bold;
+    src: url(/assets/fonts/cera-gr-bold.woff2);
+}
+
+.lang-bar{
+    display: flex;
+    justify-content: right;
+    gap:48px;
+}
+a{
+    text-decoration: none;
+}
+.flag{
+    width:40px;
+}
+.logo-header{
+    width:20%;
+}
+.navi-menu{
+    justify-self: right;
+    display:flex;
+    gap:50px;
+    padding-right: 20px;
+}
+
+.navi-menu a,
+.selected-page{
+    font-family: cera-gr-bold;
+    font-size: 25px;
+}
+
+.other-page{
+    color: black;
+}
+
+.selected-page{
+    color:#275F9F;
+}
+
+
+@media (max-width:768px) {
+    .lang-bar{
+        justify-content: center;
+    }
+
+    .flag{
+        width:30px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-header{
+        display:block;
+        width:200px;
+    }
+
+    .navi-menu{
+        justify-content: center;
+    }
+    
+    .selected-page,
+    .other-page{
+        text-align: center;
+    }
+
+}
