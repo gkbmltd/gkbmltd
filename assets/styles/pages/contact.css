@@ -1,0 +1,150 @@
+@font-face {
+    font-family: cera-gr-bold;
+    src: url(/assets/fonts/cera-gr-bold.woff2);
+}
+
+@keyframes contact-info-hover {
+    from{
+        color:black;
+    }
+
+    to{
+        color:#275F9F;
+    }
+}
+
+
+html,body{
+    height:100%;
+}
+
+
+
+.left-half-img {
+    height: 100%;
+    width: 50%;
+}
+
+
+
+
+.flex-page{
+    display: flex;
+    gap:70px;
+    justify-content: space-between;
+}
+
+.right-half{
+    display:flex;
+    flex-direction: column;
+}
+
+.right-half img{
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.contact-info{
+    padding-top:70px;
+    font-family: cera-gr-bold;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.contact-info a{
+    color:black;
+    font-size:20px;
+}
+
+.emails{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-iframe{
+    display: none;
+
+}
+
+.footer{
+    display:flex;
+}
+
+.footer-text{
+    color:white;
+    font-family: cera-gr-bold;
+    position: absolute;
+    top:220%;
+    left:1%;
+
+}
+
+.t-and-c{
+    color:black;
+    font-family: cera-gr-bold;
+    position: absolute;
+    top:221%;
+    left: 70%;
+
+}
+
+.privacy-policy{
+    color:black;
+    font-family: cera-gr-bold;
+    position: absolute;
+    top:221%;
+    left:85%
+}
+
+.footer-mobile{
+    display: none;
+}
+
+
+.contact-info a:hover{
+    color:#275F9F;
+    animation:contact-info-hover 0.5s;
+}
+
+
+
+@media (max-width:768px) {
+    .left-half-img{
+        display: none;
+    }
+
+    .right-half img{
+        display: block;
+        width:100%;
+    }
+
+    .pc-iframe{
+        display: none;
+    }
+
+    .mobile-iframe{
+        display:block;
+    }
+    
+    .footer{
+        display:none;
+    }
+
+    .footer-mobile{
+        display: flex;
+        flex-direction: column;
+        background-image: url(/assets/media/content/hero-image.jpg);
+        gap:1px;
+    }
+
+    .footer-mobile p,
+    .footer-mobile a{
+        color: white;
+        text-align: center;
+        font-family: cera-gr-bold;
+    }
+}
+
