@@ -13,7 +13,7 @@
     font-family: cera-gr-bold;
     color: white;
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Center horizontally & vertically */
     z-index: 1;
