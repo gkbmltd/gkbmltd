@@ -25,7 +25,12 @@ html,body{
     width: 50%;
 }
 
-
+.pc-iframe{
+    display: block;
+    padding-top: 50px;
+    margin-right:auto;
+    margin-left:auto ;
+}
 
 
 .flex-page{
@@ -51,7 +56,7 @@ html,body{
     font-family: cera-gr-bold;
     display:flex;
     flex-direction: column;
-    gap:20px;
+    gap:80px;
 }
 
 .contact-info a{
@@ -70,15 +75,19 @@ html,body{
 }
 
 .footer{
-    display:flex;
+    background-image: url(/assets/media/content/hero-image.jpg);
+    width:50%;
+    background-repeat: no-repeat;   
+    background-size: cover;           
+    background-position: center;
 }
 
 .footer-text{
     color:white;
     font-family: cera-gr-bold;
-    position: absolute;
-    top:220%;
-    left:1%;
+    padding-top:160%;
+    padding-left:10px;
+    padding-bottom: 0px;
 
 }
 
@@ -111,6 +120,8 @@ html,body{
 
 
 
+
+
 @media (max-width:768px) {
     .left-half-img{
         display: none;
@@ -127,6 +138,8 @@ html,body{
 
     .mobile-iframe{
         display:block;
+        margin-right:auto;
+        margin-left:auto ;
     }
     
     .footer{
@@ -138,6 +151,7 @@ html,body{
         flex-direction: column;
         background-image: url(/assets/media/content/hero-image.jpg);
         gap:1px;
+        padding-bottom: 10px;
     }
 
     .footer-mobile p,

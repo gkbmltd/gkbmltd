@@ -1,35 +1,21 @@
-END TASK - GOOGLE ANALYTICS !!
+END TASK - GOOGLE ANALYTICS - DONE
 
 
-Status: Home (EN) 90% complete - Problem w mobile view text!!
-        Home (ZH) 0%
-        Home (GR) 0%
-
-        Contact (EN) 100%
-        Contact (ZH) 100%
-        Contact (GR) 100%
-
-        About (EN) 100%
-        About (ZH) 100%
-        About (GR) 100%
-
-        T&C (EN) 0%
-        T&C (ZH) 0%
-        T&C (GR) 0%
-
-        Privacy Policy (EN) 0%
-        Privacy Policy (ZH) 0%
-        Privacy Policy (GR) 0%
-
-        404 0%
+Status: 80%
 
 
 Work hrs code: 3:00 hr 
 
 To-do:
-    1. Fix Home text on mobile
+    1. Hyperlink "/" to header logo
+    2. Fix all links
+    3. Fix mobile home page font size
+
+
+UNDER CONSTRUCTION STILL!!!!
+
 
     
 
 
-Estimated deliver day: Thu 5 Jun 2025
+Estimated deliver day: Web 4 Jun 2025

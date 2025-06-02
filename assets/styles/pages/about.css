@@ -2,21 +2,23 @@
     font-family: cera-gr-bold;
     src: url(/assets/fonts/cera-gr-bold.woff2);
 }
+
+body,html{
+    max-width:100%;
+    
+}
 .flex-page{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
     gap:10px;
 }
 
-.left-half-img{
-    max-height:fit-content;
-    width:50%;
-}
+
 
 .main-text{
     font-family: cera-gr-bold;
     font-size: 24px;
+    padding-top: 100px;
 }
 
 
@@ -25,23 +27,58 @@
     text-align: center;
 }
 
-.footer,
-.footer a{
-    font-family: cera-gr-bold;
-    color:black;
+.footer{
+    background-image: url(/assets/media/content/hero-image.jpg);
+    width:250%;
+    text-align: right;
 }
 
+.footer-text{
+    color:white;
+    font-family: cera-gr-bold;
+    padding-top:145%;
+    padding-left:10px;
+    text-align: right;
+}
+
+.footer-mobile{
+    display:none;
+}
+
+html[lang='el'] .footer-text{
+    padding-top: 135%;
+}
+
+html[lang="zh"] .footer-text{
+    padding-top:98%;
+}
+
+html[lang='zh'] .footer{
+    width:100%;
+}
 
 @media (max-width:768px) {
-    .left-half-img{
-        display: none;
+    .main-text{
+        padding-top:5px;
     }
 
-    .footer,
-    .footer a{
+    .footer{
+        display:none;
+    }
+
+    .footer-mobile{
+        display: flex;
+        flex-direction: column;
         background-image: url(/assets/media/content/hero-image.jpg);
+        gap:1px;
+        padding-bottom: 10px;
+    }
+    .footer-mobile p,
+    .footer-mobile a{
         color: white;
         text-align: center;
-        font-size: 20px;
+        font-family: cera-gr-bold;
     }
+
+
 }
