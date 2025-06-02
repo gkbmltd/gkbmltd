@@ -1,0 +1,47 @@
+@font-face {
+    font-family: cera-gr-bold;
+    src: url(/assets/fonts/cera-gr-bold.woff2);
+}
+.flex-page{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap:10px;
+}
+
+.left-half-img{
+    max-height:fit-content;
+    width:50%;
+}
+
+.main-text{
+    font-family: cera-gr-bold;
+    font-size: 24px;
+}
+
+
+.main-title{
+    font-family: cera-gr-bold;
+    text-align: center;
+}
+
+.footer,
+.footer a{
+    font-family: cera-gr-bold;
+    color:black;
+}
+
+
+@media (max-width:768px) {
+    .left-half-img{
+        display: none;
+    }
+
+    .footer,
+    .footer a{
+        background-image: url(/assets/media/content/hero-image.jpg);
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+}

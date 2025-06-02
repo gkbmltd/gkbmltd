@@ -1,0 +1,30 @@
+@font-face {
+    font-family: cera-gr-bold;
+    src: url(/assets/fonts/cera-gr-bold.woff2);
+}
+body,html{
+    max-height: 100%;
+}
+.flex-page{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap:10px;
+}
+
+.left-half-img{
+    height:100%;
+    width:50%;
+}
+.main-text{
+    font-family: cera-gr-bold;
+    font-size: 14px;
+}
+
+
+@media (max-width:768px) {
+    .left-half-img{
+        display:none;
+    }
+    
+}

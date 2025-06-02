@@ -50,17 +50,45 @@
 }
 
 @media (max-width:768px) {
+
     .main-page img{
         width:100%;
-        height: 1000px;
+        height: 150vh;
+        margin-left:0px;
+        padding-left:0px;
     }
 
     .main-page h1{
         color:white;
-        position: relative;
-        top: 1px;
+        position: absolute;
+        top: 40%;
         left: 50%;
-        font-size:36px;
+        font-size:30px;
         z-index:3;
+        
+    }
+
+    .main-page h1 span{
+        font-size: small;
+    }
+
+    .footer-text{
+        top:130%;
+        left:5%
+    }
+
+    .t-and-c{
+        top:137%;
+        left:5%;
+
+    }
+
+    .privacy-policy{
+        top:141%;
+        left:5%;
+    }
+
+    html[lang="el"] .footer-text{
+        font-size: 13px;
     }
 }

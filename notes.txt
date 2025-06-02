@@ -5,13 +5,13 @@ Status: Home (EN) 90% complete - Problem w mobile view text!!
         Home (ZH) 0%
         Home (GR) 0%
 
-        Contact (EN) 95% complete - missing href=''
-        Contact (ZH) 0%
-        Contact (GR) 0%
+        Contact (EN) 100%
+        Contact (ZH) 100%
+        Contact (GR) 100%
 
-        About (EN) 0%
-        About (ZH) 0%
-        About (GR) 0%
+        About (EN) 100%
+        About (ZH) 100%
+        About (GR) 100%
 
         T&C (EN) 0%
         T&C (ZH) 0%
@@ -24,13 +24,11 @@ Status: Home (EN) 90% complete - Problem w mobile view text!!
         404 0%
 
 
-Work hrs code: 2:30 hr 
+Work hrs code: 3:00 hr 
 
 To-do:
     1. Fix Home text on mobile
-    2. Add animations on Home
-    3. Add links to href on Contact
-    4. Finalise contact animations
+
     
 
 

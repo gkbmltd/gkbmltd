@@ -24,19 +24,60 @@ a{
     padding-right: 20px;
 }
 
+
 .navi-menu a,
 .selected-page{
     font-family: cera-gr-bold;
     font-size: 25px;
 }
 
-.other-page{
+.other-page {
+    position: relative;
     color: black;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block; /* ΠΡΟΣΘΗΚΗ */
+    padding-bottom: 4px;    /* ΠΡΟΑΙΡΕΤΙΚΟ, για απόσταση από underline */
 }
 
-.selected-page{
-    color:#275F9F;
+.other-page::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0; /* άλλαξέ το από -2px σε 0 */
+    left: 0;
+    background-color: #275F9F;
+    transition: width 0.3s ease-in-out;
 }
+
+.other-page:hover {
+    color: #275F9F;
+}
+
+.other-page:hover::after {
+    width: 100%;
+}
+
+.selected-page {
+    position: relative;
+    color: #275F9F;
+    font-family: cera-gr-bold;
+    font-size: 25px;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.selected-page::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #275F9F;
+}
+
 
 
 @media (max-width:768px) {
@@ -58,11 +99,20 @@ a{
 
     .navi-menu{
         justify-content: center;
+        gap:20px;
+        
     }
     
     .selected-page,
     .other-page{
         text-align: center;
+        font-family: cera-gr-bold;
+        font-size: xx-small;
     }
 
+    
+    html[lang='el'].selected-page,
+    html[lang='el'].other-page{
+        font-size: x-small;
+    }
 }
