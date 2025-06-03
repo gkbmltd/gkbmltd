@@ -46,6 +46,8 @@ body,html{
     padding-right:0%;
     display:flex;
     justify-content: flex-end;
+    background-repeat: no-repeat;   
+    background-size: cover; 
 }
 
 .footer-text{
