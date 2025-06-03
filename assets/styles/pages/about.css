@@ -13,7 +13,7 @@ body,html{
     display: flex;
     flex-direction: row-reverse;
     gap:10px;
-    align-items: flex-start;
+    align-items: stretch;
 }
 
 
@@ -43,16 +43,19 @@ body,html{
     width:400%;
     text-align: right;
     margin-right:0%;
-    padding-right:0%
+    padding-right:0%;
+    display:flex;
+    justify-content: flex-end;
 }
 
 .footer-text{
     color:white;
     font-family: cera-gr-bold;
-    padding-top:104%;
+    align-self: flex-end;
     padding-left:10px;
     text-align: right;
     padding-right:10px;
+
 }
 
 .footer-mobile{

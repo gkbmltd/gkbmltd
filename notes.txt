@@ -8,10 +8,10 @@ Work hrs code: 5:00 hr
 
 To-do:
     1. HTML CHANGES FROM EN TO FH,EL
-    2. CONTACT IMAGE BIGGER - MAP BIGGER
-    3.About shorter than text
+    2. 
+    3. 
     4. T&C problem
-    5. Margin bottom in 
+    5. 
     6.GAPS IN CONTACT SAME
 
 
