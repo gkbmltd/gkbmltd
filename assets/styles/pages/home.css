@@ -4,88 +4,55 @@
 }
 
 
-.main-page img{
+.main-page {
     width:100%;
-    z-index: 0;
+    background-image: url('/assets/media/content/hero-image.jpg');
+    background-repeat: no-repeat;   
+    background-size: cover;           
+    background-position: center;
+    justify-content: center;
 }
 
 .main-page h1 {
     font-family: cera-gr-bold;
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center horizontally & vertically */
-    z-index: 1;
     text-align: center;
     white-space: nowrap;
+    padding-top:10%;
+    font-size: 40pt;
 }
 .footer{
     display:flex;
+    padding-top: 40%;
+    gap:230px;
+    align-items: center;
+    justify-content: center;
 }
 .footer-text{
-    top: 165%;
-    left:1%;
-    position: absolute;
     font-family: cera-gr-bold;
     color:white;
 }
 
-.t-and-c,
-.privacy-policy{
-    color:white;
-    font-family: cera-gr-bold;
-}
 
-.t-and-c{
-    position: absolute;
-    top: 165%;
-    left:70%;
-}
-
-.privacy-policy{
-    position: absolute;
-    top:165%;
-    left:85%;   
-}
 
 @media (max-width:768px) {
 
-    .main-page img{
-        width:100%;
-        height: 150vh;
-        margin-left:0px;
-        padding-left:0px;
-    }
+
 
     .main-page h1{
         color:white;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        font-size:30px;
-        z-index:3;
-        
+        font-size: 30px;
     }
 
     .main-page h1 span{
-        font-size: small;
+        font-size: 15px;
     }
 
-    .footer-text{
-        top:130%;
-        left:5%
-    }
-
-    .t-and-c{
-        top:137%;
-        left:5%;
-
-    }
-
-    .privacy-policy{
-        top:141%;
-        left:5%;
+    .footer{
+        flex-direction: column;
+        gap:15px;
+        padding-top:150%;
+        padding-bottom: 20px;
     }
 
     html[lang="el"] .footer-text{

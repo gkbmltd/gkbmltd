@@ -2,14 +2,13 @@
 <html lang="zh">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GK32456XG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4GK32456XG');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GK32456XG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4GK32456XG');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首页 - GKBM LTD</title>
@@ -25,27 +24,27 @@
         <a href="/el/"><img class="flag" src="/assets/media/icons/GR.png"></a>
     </div>
     <div class="header">
-        <img class="logo-header" src="/assets/media/branding/logo-full.png">
-       <br> <div class="navi-menu">
+       <a href="/zh/"><img class="logo-header" src="/assets/media/branding/logo-full.png"></a>
+       <br>
+       <div class="navi-menu">
             <a href="/zh/" class="selected-page">首页</a>
-            <a href="/zh/about/" class="other-page">关于</a>
-            <a href="/zh/contact/" class="other-page">联系</a>
+            <a href="/zh/about/" class="other-page">关于我们</a>
+            <a href="/zh/contact/" class="other-page">联系我们</a>
         </div>
     </div>
     <div class="main-page">
-        <img src="/assets/media/content/hero-image.jpg">
         <h1>欢迎来到 GKBM LTD <br>
-        <span>您在全球海事运营中的值得信赖的合作伙伴</span></h1>
+        <span>您在全球海运业务中的可信赖合作伙伴</span></h1>
         <div class="footer">
             <p class="footer-text">2025 | © GKBM LTD. 版权所有</p>
-            <a href="/zh/t-and-c/" class="t-and-c">条款和条件</a>
-            <a href="/zh/privacy-policy/" class="privacy-policy">隐私与 Cookie 政策</a>
+            <a href="/zh/t-and-c/" class="footer-text">条款与条件</a>
+            <a href="/zh/privacy-policy/" class="footer-text">隐私与 Cookie 政策</a>
         </div>
     </div>
     <div id="cookie-banner">
-  <p>我们使用 cookies 来改善您的体验。请参阅我们的 <a href="/zh/privacy-policy/">隐私政策</a>。</p>
-  <button onclick="acceptCookies()">好的</button>
-</div>
-
+        <p>我们使用 Cookie 来改善您的体验。使用本网站即表示您同意我们的 <a href="/zh/privacy-policy/">隐私政策</a>。</p>
+        <button id="accept-cookies">接受</button>
+    </div>
+    <script src="/assets/scripts/banner.js"></script>
 </body>
 </html>
