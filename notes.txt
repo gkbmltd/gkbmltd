@@ -7,15 +7,16 @@ Status: 80%
 Work hrs code: 5:00 hr 
 
 To-do:
-    1. Hyperlink "/" to header logo
-    2. Fix all links
-    3. Fix mobile home page font size
+    1. HTML CHANGES FROM EN TO FH,EL
+    2. CONTACT IMAGE BIGGER - MAP BIGGER
+    3.About shorter than text
+    4. T&C problem
+    5. Margin bottom in 
+    6.GAPS IN CONTACT SAME
 
 
 UNDER CONSTRUCTION STILL!!!!
 
 
-    
 
-
-Estimated deliver day: Web 4 Jun 2025
+Estimated deliver day: Fri 6 Jun 2025

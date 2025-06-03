@@ -3,7 +3,11 @@
     src: url(/assets/fonts/cera-gr-bold.woff2);
 }
 
-
+html,body{
+    margin-left:0%;
+    margin-right: 0%;
+    margin-bottom:0%;
+}
 .main-page {
     width:100%;
     background-image: url('/assets/media/content/hero-image.jpg');
@@ -24,16 +28,24 @@
 .footer{
     display:flex;
     padding-top: 40%;
-    gap:230px;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 10px;
+    gap:33.1%;
 }
 .footer-text{
     font-family: cera-gr-bold;
     color:white;
+
 }
 
+#all-rights{
+    text-align: left;
+}
 
+#t-c{
+    text-align: left;
+}
 
 @media (max-width:768px) {
 

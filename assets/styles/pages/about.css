@@ -5,22 +5,33 @@
 
 body,html{
     max-width:100%;
-    
+    margin-bottom: 0%;
+    max-height: 100%;
+    margin-right:0;
 }
 .flex-page{
     display: flex;
     flex-direction: row-reverse;
     gap:10px;
+    align-items: flex-start;
 }
 
 
 
 .main-text{
     font-family: cera-gr-bold;
-    font-size: 24px;
-    padding-top: 100px;
+    font-size: 19px;
+    text-align:left;
+    line-height: 1.5;
+    margin-top: 0;
+    line-height: 1.5;
+    word-break:break-word;
+
 }
 
+.main-text span{
+    color:#275F9F;
+}
 
 .main-title{
     font-family: cera-gr-bold;
@@ -29,16 +40,19 @@ body,html{
 
 .footer{
     background-image: url(/assets/media/content/hero-image.jpg);
-    width:250%;
+    width:400%;
     text-align: right;
+    margin-right:0%;
+    padding-right:0%
 }
 
 .footer-text{
     color:white;
     font-family: cera-gr-bold;
-    padding-top:145%;
+    padding-top:104%;
     padding-left:10px;
     text-align: right;
+    padding-right:10px;
 }
 
 .footer-mobile{

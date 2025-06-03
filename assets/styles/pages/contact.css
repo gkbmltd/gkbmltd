@@ -16,6 +16,9 @@
 
 html,body{
     height:100%;
+    margin-bottom:0;
+    padding-bottom:0%;
+    margin-left:0%;
 }
 
 
@@ -48,7 +51,6 @@ html,body{
     display: block;
     margin-left: auto;
     margin-right: 20px;
-    border-radius: 10px;
 }
 
 .contact-info{
@@ -80,16 +82,24 @@ html,body{
     background-repeat: no-repeat;   
     background-size: cover;           
     background-position: center;
+    display:flex;
+    flex-direction: column;
+    gap:0px;
+    padding-top:90%;
+    padding-bottom:0px;
+    margin-bottom:0px;
 }
 
 .footer-text{
     color:white;
     font-family: cera-gr-bold;
-    padding-top:160%;
+
     padding-left:10px;
     padding-bottom: 0px;
 
 }
+
+
 
 .t-and-c{
     color:black;
