@@ -4,6 +4,8 @@
 }
 body,html{
     max-height: 100%;
+    margin-right:0;
+    
 }
 .flex-page{
     display: flex;
@@ -12,9 +14,20 @@ body,html{
     gap:10px;
 }
 
+
+
+
+
 .left-half-img{
-    height:100%;
+    background-image: url(/assets/media/content/hero-image.jpg);
     width:50%;
+    text-align: right;
+    margin-right:0%;
+    padding-right:0%;
+    display:flex;
+    justify-content: flex-end;
+    background-repeat: no-repeat;   
+    background-size: cover; 
 }
 .main-text{
     font-family: cera-gr-bold;

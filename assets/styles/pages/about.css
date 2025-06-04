@@ -64,17 +64,6 @@ body,html{
     display:none;
 }
 
-html[lang='el'] .footer-text{
-    padding-top: 135%;
-}
-
-html[lang="zh"] .footer-text{
-    padding-top:98%;
-}
-
-html[lang='zh'] .footer{
-    width:100%;
-}
 
 @media (max-width:768px) {
     .main-text{

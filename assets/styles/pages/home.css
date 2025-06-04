@@ -70,4 +70,13 @@ html,body{
     html[lang="el"] .footer-text{
         font-size: 13px;
     }
+
+    html[lang="el"] .main-page h1{
+        font-size: 25px;
+    }
+
+    html[lang="el"] .main-page h1 span{
+        font-size: 10px;
+    }
+    
 }
