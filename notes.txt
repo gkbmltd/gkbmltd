@@ -4,7 +4,7 @@ END TASK - GOOGLE ANALYTICS - DONE
 Status: 80%
 
 
-Work hrs code: 15:00 hr 
+Work hrs code: 16:00 hr 
 
 To-do:
 1. Contact middle of div right
