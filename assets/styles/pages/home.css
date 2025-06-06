@@ -47,6 +47,18 @@ html,body{
     text-align: left;
 }
 
+.button-404{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cera-gr-bold;
+    background-color: transparent;
+    font-size: xx-large;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+
 @media (max-width:768px) {
 
 
