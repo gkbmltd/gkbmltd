@@ -4,10 +4,12 @@ END TASK - GOOGLE ANALYTICS - DONE
 Status: 80%
 
 
-Work hrs code: 5:00 hr 
+Work hrs code: 15:00 hr 
 
 To-do:
-
+1. Contact middle of div right
+2.Contact info and map streched to width
+3. About in mobile view add a banner (transparent) !!DONE!!
 
 
 UNDER CONSTRUCTION STILL!!!!
