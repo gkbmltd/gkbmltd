@@ -7,14 +7,16 @@ html,body{
     margin-left:0%;
     margin-right: 0%;
     margin-bottom:0%;
+    width: 100%;
 }
 .main-page {
-    width:100%;
+    width:max-content;
     background-image: url('/assets/media/content/hero-image.jpg');
     background-repeat: no-repeat;   
     background-size: cover;           
     background-position: center;
     justify-content: center;
+    height: max-content;
 }
 
 .main-page h1 {
@@ -24,6 +26,7 @@ html,body{
     white-space: nowrap;
     padding-top:10%;
     font-size: 40pt;
+    max-width: max-content;
 }
 .footer{
     display:flex;
@@ -61,7 +64,9 @@ html,body{
 
 @media (max-width:768px) {
 
-
+    .main-page{
+        width:100%;
+    }
 
     .main-page h1{
         color:white;
