@@ -137,8 +137,11 @@ html{
 
 
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
 
+    *{
+        justify-self: center;
+    }
 
     .right-half{
         width: 100%;
@@ -190,6 +193,7 @@ html{
         padding-bottom: 0px;
         padding-left:0px;
         margin-right: 0px;
+        width:100%;
     }
 
     .footer-mobile p,

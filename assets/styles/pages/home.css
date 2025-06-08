@@ -10,12 +10,12 @@ html,body{
     width: 100%;
 }
 .main-page {
-    width:max-content;
+    width:100%;
     background-image: url('/assets/media/content/hero-image.jpg');
     background-repeat: no-repeat;   
     background-size: cover;           
     background-position: center;
-    justify-content: center;
+    justify-items: center;
     height: max-content;
 }
 
@@ -26,7 +26,7 @@ html,body{
     white-space: nowrap;
     padding-top:10%;
     font-size: 40pt;
-    max-width: max-content;
+    max-width: 100%;
 }
 .footer{
     display:flex;
@@ -62,7 +62,7 @@ html,body{
     color:rgb(0, 0, 0);
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
 
     .main-page{
         width:100%;
@@ -71,6 +71,7 @@ html,body{
     .main-page h1{
         color:white;
         font-size: 30px;
+        padding-top: 30%;
     }
 
     .main-page h1 span{
@@ -97,3 +98,5 @@ html,body{
     }
     
 }
+
+
