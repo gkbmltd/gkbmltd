@@ -62,7 +62,8 @@ html,body{
     color:rgb(0, 0, 0);
 }
 
-@media (max-width:1024px) {
+
+@media (max-width:768px) {
 
     .main-page{
         width:100%;
@@ -97,6 +98,18 @@ html,body{
         font-size: 10px;
     }
     
+}
+
+@media (max-width: 1440px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .main-page h1{
+        width: 100%;
+        font-size: x-large;
+    }
 }
 
 
