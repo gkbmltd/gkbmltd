@@ -1,0 +1,115 @@
+@font-face {
+    font-family: cera-gr-bold;
+    src: url(/assets/fonts/cera-gr-bold.woff2);
+}
+
+html,body{
+    margin-left:0%;
+    margin-right: 0%;
+    margin-bottom:0%;
+    width: 100%;
+}
+.main-page {
+    width:100%;
+    background-image: url('/assets/media/content/hero-image.jpg');
+    background-repeat: no-repeat;   
+    background-size: cover;           
+    background-position: center;
+    justify-items: center;
+    height: max-content;
+}
+
+.main-page h1 {
+    font-family: cera-gr-bold;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    padding-top:10%;
+    font-size: 40pt;
+    max-width: 100%;
+}
+.footer{
+    display:flex;
+    padding-top: 40%;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10px;
+    gap:33.1%;
+}
+.footer-text{
+    font-family: cera-gr-bold;
+    color:white;
+
+}
+
+#all-rights{
+    text-align: left;
+}
+
+#t-c{
+    text-align: left;
+}
+
+.button-404{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cera-gr-bold;
+    background-color: transparent;
+    font-size: xx-large;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+
+
+@media (max-width:768px) {
+
+    .main-page{
+        width:100%;
+    }
+
+    .main-page h1{
+        color:white;
+        font-size: 30px;
+        padding-top: 30%;
+    }
+
+    .main-page h1 span{
+        font-size: 15px;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap:15px;
+        padding-top:150%;
+        padding-bottom: 20px;
+    }
+
+    html[lang="el"] .footer-text{
+        font-size: 13px;
+    }
+
+    html[lang="el"] .main-page h1{
+        font-size: 25px;
+    }
+
+    html[lang="el"] .main-page h1 span{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 1440px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .main-page h1{
+        width: 100%;
+        font-size: x-large;
+    }
+}
+
+

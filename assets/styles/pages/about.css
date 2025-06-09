@@ -1,0 +1,102 @@
+@font-face {
+    font-family: cera-gr-bold;
+    src: url(/assets/fonts/cera-gr-bold.woff2);
+}
+
+body,html{
+    max-width:100%;
+    margin-bottom: 0%;
+    max-height: 100%;
+    margin-right:0;
+}
+.flex-page{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:10px;
+    align-items: stretch;
+}
+
+
+
+.main-text{
+    font-family: cera-gr-bold;
+    font-size: 19px;
+    text-align:left;
+    line-height: 1.5;
+    margin-top: 0;
+    line-height: 1.5;
+    word-break:break-word;
+
+}
+
+.main-text span{
+    color:#275F9F;
+}
+
+.main-title{
+    font-family: cera-gr-bold;
+    text-align: center;
+}
+
+.footer{
+    background-image: url(/assets/media/content/hero-image.jpg);
+    width:400%;
+    text-align: right;
+    margin-right:0%;
+    padding-right:0%;
+    display:flex;
+    justify-content: flex-end;
+    background-repeat: no-repeat;   
+    background-size: cover; 
+}
+
+.footer-text{
+    color:white;
+    font-family: cera-gr-bold;
+    align-self: flex-end;
+    padding-left:10px;
+    text-align: right;
+    padding-right:10px;
+
+}
+
+.footer-mobile,
+.banner-top-mobile{
+    display:none;
+}
+
+
+@media (max-width:1024px) {
+    .main-text{
+        padding-top:5px;
+        padding-left:10px;
+    }
+
+    .footer{
+        display:none;
+    }
+
+    .footer-mobile,
+    .banner-top-mobile{
+        display: flex;
+        flex-direction: column;
+        background-image: url(/assets/media/content/hero-image.jpg);
+        gap:1px;
+    }
+
+    .banner-top-mobile{
+        margin-top: 15px;
+    }
+
+    .footer-mobile p,
+    .footer-mobile a{
+        color: white;
+        text-align: center;
+        font-family: cera-gr-bold;
+    }
+
+    body,html{
+        margin-left: 0px;
+    }
+
+}

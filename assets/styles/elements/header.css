@@ -1,0 +1,120 @@
+@font-face {
+    font-family: cera-gr-bold;
+    src: url(/assets/fonts/cera-gr-bold.woff2);
+}
+
+.lang-bar{
+    display: flex;
+    justify-content: right;
+    gap:48px;
+}
+a{
+    text-decoration: none;
+}
+.flag{
+    width:40px;
+}
+.logo-header{
+    margin-left:10px;
+    width:20%;
+    margin-right:20px;
+}
+.navi-menu{
+    justify-self: right;
+    display:flex;
+    gap:50px;
+    padding-right: 20px;
+}
+
+
+.navi-menu a,
+.selected-page{
+    font-family: cera-gr-bold;
+    font-size: 25px;
+}
+
+.other-page {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block; /* ΠΡΟΣΘΗΚΗ */
+    padding-bottom: 4px;    /* ΠΡΟΑΙΡΕΤΙΚΟ, για απόσταση από underline */
+}
+
+.other-page::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0; /* άλλαξέ το από -2px σε 0 */
+    left: 0;
+    background-color: #275F9F;
+    transition: width 0.3s ease-in-out;
+}
+
+.other-page:hover {
+    color: #275F9F;
+}
+
+.other-page:hover::after {
+    width: 100%;
+}
+
+.selected-page {
+    position: relative;
+    color: #275F9F;
+    font-family: cera-gr-bold;
+    font-size: 25px;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.selected-page::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #275F9F;
+}
+
+
+
+@media (max-width:1024px) {
+    .lang-bar{
+        justify-content: center;
+    }
+
+    .flag{
+        width:30px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-header{
+        display:block;
+        width:200px;
+    }
+
+    .navi-menu{
+        justify-content: center;
+        gap:20px;
+        
+    }
+    
+    .selected-page,
+    .other-page{
+        text-align: center;
+        font-family: cera-gr-bold;
+        font-size: xx-small;
+    }
+
+    
+    html[lang='el'].selected-page,
+    html[lang='el'].other-page{
+        font-size: x-small;
+    }
+}
